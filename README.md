@@ -7,8 +7,8 @@ Make sure you have IONIC installed.
 Next to run the project in browser, simply clone the repository, install the dependencies and use `ionic serve`.
 
 ```
-git clone https://github.com/jay3dec/iBucketListApp_Part1.git
-cd iBucketListApp_Part1
+git clone https://github.com/jay3dec/iBucketListApp_Part2.git
+cd iBucketListApp_Part2
 npm install
 ionic serve
 ```
@@ -16,7 +16,7 @@ ionic serve
 Running in emulator 
 
 ```
-cd iBucketListApp_Part1
+cd iBucketListApp_Part2
 ionic platform add android
 ionic build android
 ionic emulate android
