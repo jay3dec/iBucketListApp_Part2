@@ -1,0 +1,25 @@
+<ion-view title="iBucketList">
+	<ion-nav-buttons side="secondary">
+      <button class="button" ng-click="showSignUp()">
+        Sign Up
+      </button>
+    </ion-nav-buttons>
+
+     <ion-content>
+     	 
+        <div class="list list-inset">
+			  <label class="item item-input">
+			    <input type="text" placeholder="Username" ng-model="login.username">
+			  </label>
+			  <label class="item item-input">
+			    <input type="password" placeholder="password" ng-model="login.password">
+			  </label>
+		</div>
+		<div class="padding">
+			<button ng-click="signin()"  class="button button-block button-assertive">
+  				Sign In
+			</button>
+		</div>
+
+    </ion-content>
+</ion-view>

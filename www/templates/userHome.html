@@ -1,0 +1,14 @@
+<ion-view title="iBucketList">
+	<ion-nav-buttons side="secondary">
+      <button class="button" ng-click="showAddWish()">
+        Add Wish
+      </button>
+    </ion-nav-buttons>
+     <ion-content>
+      	<ul class="list">
+		    <li class="item" ng-repeat="wish in wishes">
+		      {{wish.wish}}
+		    </li>
+		</ul>
+    </ion-content>
+</ion-view>
